@@ -1,12 +1,20 @@
+/* Body styles */
+body {
+  /* padding-left: 10%;
+  padding-right: 10%; */
+}
+
 /* Header styles */
 .header {
   display: flex;
   justify-content: space-between;
+  background-color: #1F2937;
+
 }
 
 .header p{
   font-weight: 700;
-  /* color: white; */
+  color: #F9FAF8;
 }
 
 ul {
@@ -16,10 +24,43 @@ ul {
   gap: 16pt;
 }
 
-li, a{
-  color: grey;
+a {
+  text-decoration: none;
+  color: #E5E7EB;
 }
 
-a {
-  text-decoration: none
+/* Gyro */
+.gyro {
+  display: flex;
+  background-color: #1F2937;
 }
+
+.gyro-header {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.gyro-text {
+  margin: 0;
+  font-size: 24px;
+  color: #E5E7EB;
+}
+
+button.sign-up {
+  border-radius: 4pt;
+  height: 30px;
+  width: 90px;
+  background-color: #3882F6;
+  color: white;
+  font-weight: 700;
+}
+
+.image-ph {
+  height: 200px;
+  width: 500px;
+  background-color: grey;
+  color: white;
+}
+
