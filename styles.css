@@ -64,3 +64,27 @@ button.sign-up {
   color: white;
 }
 
+/* 2'nd row: Images */
+
+.r2-title {
+  text-align: center;
+  font-size: 18pt;
+  font-weight: 700;
+  padding: 0;
+  margin: 20px;
+}
+
+.r2-all-images {
+  display: flex;
+  justify-content: center;
+}
+
+.r2-image {
+  height: 150px;
+  width: auto;
+  border: 4px solid lightblue;
+  border-radius: 8px;
+}
+
+/* 3'rd Row: Quote */
+
