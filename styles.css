@@ -1,0 +1,25 @@
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header p{
+  font-weight: 700;
+  /* color: white; */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 16pt;
+}
+
+li, a{
+  color: grey;
+}
+
+a {
+  text-decoration: none
+}
