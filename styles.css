@@ -1,15 +1,27 @@
-/* Body styles */
 body {
-  /* padding-left: 10%;
-  padding-right: 10%; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.r1-all, .r2-all, .r3-all, .r4-all, .r5-all {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/*  */
+/* ROW 1: Header and Hero */
+/*  */
+.r1-all {
+  flex: 5 0 0;
+  background-color: #1F2937;
 }
 
 /* Header styles */
 .header {
   display: flex;
   justify-content: space-between;
-  background-color: #1F2937;
-
 }
 
 .header p{
@@ -32,7 +44,6 @@ a {
 /* Gyro */
 .gyro {
   display: flex;
-  background-color: #1F2937;
 }
 
 .gyro-header {
@@ -64,7 +75,12 @@ button.sign-up {
   color: white;
 }
 
-/* 2'nd row: Images */
+/*  */
+/* ROW 2: Images */
+/*  */
+.r2-all {
+  flex: 5 0 0;
+}
 
 .r2-title {
   text-align: center;
@@ -80,11 +96,70 @@ button.sign-up {
 }
 
 .r2-image {
-  height: 150px;
+  height: 100px;
   width: auto;
   border: 4px solid lightblue;
   border-radius: 8px;
 }
 
-/* 3'rd Row: Quote */
+/*  */
+/* ROW 3: Quote */
+/*  */
+.r3-all {
+  flex: 5 0 0;
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.r3-all-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.r3-quote, .r3-sig {
+  padding: 0;
+  margin: 0;
+}
+
+.r3-quote {
+  font-size: 28pt;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.r3-sig {
+  color: #1F2937;
+  text-align: right;
+  font-size: 20pt;
+}
+
+
+
+/*  */
+/* ROW 4: Call to Action */
+/*  */
+.r4-all {
+  flex: 5 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.r4-cta {
+  background-color: #3882F6;
+  color: white;
+  min-height: 50%;
+  min-width: 100%;
+  border-radius: 4pt;
+}
+
+
+/*  */
+/* ROW 5: Footer */
+/*  */
+.r5-all {
+  flex: 1 0 0;
+  background-color: #1F2937;
+}
