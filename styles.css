@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.r1-all, .r2-all, .r3-all, .r4-all, .r5-all {
+.r1-header, .r1-gyro, .r2-all, .r3-all, .r4-all, .r5-all {
   padding-left: 20%;
   padding-right: 20%;
 }
@@ -10,7 +10,7 @@ body {
 /*  */
 /* ROW 1: Header and Hero */
 /*  */
-.r1-all {
+.r1-header, .r1-gyro {
   background-color: #1F2937;
 }
 
@@ -41,11 +41,13 @@ a {
 /* Gyro */
 .r1-gyro {
   display: flex;
-  height: 200px;
+  height: 300px;
+  align-items: center;
+  gap: 36px;
 }
 
 .r1-gyro-header {
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 900;
   color: #F9FAF8;
   margin: 0;
@@ -53,7 +55,7 @@ a {
 
 .r1-gyro-text {
   margin: 0;
-  font-size: 24px;
+  font-size: 28px;
   color: #E5E7EB;
 }
 
@@ -67,8 +69,8 @@ button.r1-sign-up {
 }
 
 .r1-image-ph {
-  height: 200px;
-  width: 500px;
+  height: 150px;
+  width: 600px;
   background-color: grey;
   color: white;
 }
